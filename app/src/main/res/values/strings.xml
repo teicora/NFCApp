@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">NFCApp</string>
+    <string name="intro_text">Приложите NFC к телефону.</string>
+</resources>
