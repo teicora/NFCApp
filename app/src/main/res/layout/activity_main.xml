@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
@@ -15,4 +16,37 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="" />
+
+    <EditText
+        android:id="@+id/editTextKey"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:hint="Введите ключ от карты..."
+        tools:text="@string/text1" />
+
+    <EditText
+        android:id="@+id/editTextData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:hint="Введите текст для записи на карту..."
+        tools:text="@string/text2" />
+
+    <Button
+        android:id="@+id/write"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ЗАПИСАТЬ" />
+
+    <Button
+        android:id="@+id/changeKey"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="СМЕНИТЬ КЛЮЧ" />
+
 </LinearLayout>

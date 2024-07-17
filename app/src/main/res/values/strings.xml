@@ -1,4 +1,9 @@
 <resources>
     <string name="app_name">NFCApp</string>
     <string name="intro_text">Приложите NFC к телефону.</string>
+    <string name="text1">Введите ключ от карты..</string>
+    <string name="text2">Введите текст для записи на карту.</string>
+    <string name="text3">Записать.</string>
+    <string name="text4">Сменить ключ.</string>
+
 </resources>
